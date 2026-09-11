@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        This is only the launch theme the system applies in the fraction of a second before
+        Compose takes over. Setting the window background to the app's beige removes the white
+        flash on cold start. All real styling lives in ui/theme/Theme.kt.
+    -->
+    <style name="Theme.Mobilitylens" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/launch_background</item>
+    </style>
+</resources>

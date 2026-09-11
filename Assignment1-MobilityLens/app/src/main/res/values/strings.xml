@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mobility Lens</string>
+
+    <string name="screen_title">Mobility Lens</string>
+    <string name="screen_intro">Explore six important differences between mobile and desktop applications. Use each dimension to evaluate an app or feature you are designing.</string>
+
+    <string name="dimension_progress">Dimension %1$d of %2$d</string>
+    <string name="constraint_heading">Mobile constraint</string>
+    <string name="implication_heading">Developer recommendation</string>
+
+    <string name="previous_button">Previous</string>
+    <string name="next_button">Next</string>
+
+    <string name="design_field_label">Application or feature name</string>
+    <string name="design_field_placeholder">Example: Campus Dining App</string>
+    <string name="apply_lens_button">Apply this lens</string>
+
+    <string name="blank_input_error">Enter the name of an application or feature first.</string>
+    <string name="pairing_message">For \"%1$s\", consider how the %2$s dimension should influence your design.</string>
+    <string name="dimension_input_name">Input and Interaction</string>
+    <string name="dimension_input_constraint">Phone users interact mainly through touch instead of a mouse and keyboard. Fingers are less precise, and users may operate the device with one hand while moving.</string>
+    <string name="dimension_input_implication">Use comfortably sized touch targets, place important actions within easy thumb reach, and reduce typing when selections can collect the same information.</string>
+
+    <string name="dimension_screen_name">Screen Size, Orientation, and Density</string>
+    <string name="dimension_screen_constraint">Mobile screens vary in size, orientation, pixel density, and available space. Content that fits one phone may become crowded on another.</string>
+    <string name="dimension_screen_implication">Use flexible Compose layouts, dp for interface measurements, and sp for text. Allow content to wrap or scroll instead of using fixed positions.</string>
+
+    <string name="dimension_lifecycle_name">Lifecycle and Resource Constraints</string>
+    <string name="dimension_lifecycle_constraint">Android may recreate an activity after rotation or stop an application when memory is needed. Mobile devices also have limited battery and network availability.</string>
+    <string name="dimension_lifecycle_implication">Preserve important user progress and avoid unnecessary background work. Release resources when the screen is no longer being used.</string>
+
+    <string name="dimension_context_name">Context Awareness</string>
+    <string name="dimension_context_constraint">A mobile device travels with its user, so conditions such as location, connectivity, motion, time, and lighting can change during a session.</string>
+    <string name="dimension_context_implication">Design useful offline behavior and request contextual information such as location only when the feature genuinely requires it.</string>
+
+    <string name="dimension_usage_name">Usage Patterns</string>
+    <string name="dimension_usage_constraint">People often use mobile applications in short and interrupted sessions while travelling, waiting, or completing another activity.</string>
+    <string name="dimension_usage_implication">Make the main task easy to find, reduce the required steps, and allow users to continue from where they previously stopped.</string>
+
+    <string name="dimension_privacy_name">Security and Privacy Expectations</string>
+    <string name="dimension_privacy_constraint">Phones may contain personal messages, photos, location history, and account information. They can also be lost, shared, or stolen.</string>
+    <string name="dimension_privacy_implication">Request only necessary permissions, explain why information is needed, protect sensitive data, and avoid placing private information in logs.</string>
+
+</resources>
