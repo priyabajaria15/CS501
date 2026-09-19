@@ -1,0 +1,34 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Android Studio
+**/.idea/
+**/*.iml
+**/captures/
+
+# Gradle generated files
+**/.gradle/
+**/build/
+**/.kotlin/
+
+# Local Android SDK path
+**/local.properties
+
+# Native build files
+**/.externalNativeBuild/
+**/.cxx/
+
+# Generated APK and app bundles
+**/*.apk
+**/*.aab
+
+# Signing and secret files
+**/*.jks
+**/*.keystore
+**/keystore.properties
+**/secrets.properties
+
+# Temporary files
+**/*.log
+**/*.tmp
