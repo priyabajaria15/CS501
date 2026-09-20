@@ -18,7 +18,13 @@ Focus Plan Builder is a single-screen Android application that helps students cr
 
 ## Screenshot
 
-[![Focus Plan Builder application](screenshots/focus_plan_builder.png)](screenshots/focus_plan_builder.png)
+## Screenshots
+
+[Focus Plan Builder application](screenshots/focus_plan_builder.png)
+
+[Duration out-of-range validation](screenshots/duration_out_of_range_validation.png)
+
+[Focus Plan Builder result](screenshots/FocusPlanBuilder.png)
 ## State and Recomposition
 
 `FocusPlanRoute` owns the application state. It stores the subject, duration text, and generated plan, validates the inputs, and passes values and callbacks to `FocusPlanScreen`.
