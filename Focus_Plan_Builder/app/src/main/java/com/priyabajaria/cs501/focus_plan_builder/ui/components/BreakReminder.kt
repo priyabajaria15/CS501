@@ -30,17 +30,10 @@ fun BreakReminder(
             verticalArrangement = Arrangement.spacedBy(8.dp)
         ) {
             Text(
-                text = "☕ Break reminder",
+                text = "Recommended break: $breakMinutes minutes",
                 style = MaterialTheme.typography.titleMedium,
                 color = MaterialTheme.colorScheme.primary,
                 fontWeight = FontWeight.Bold
-            )
-
-            Text(
-                text = "Recommended break: $breakMinutes minutes",
-                style = MaterialTheme.typography.bodyLarge,
-                color = MaterialTheme.colorScheme.onSurface,
-                fontWeight = FontWeight.SemiBold
             )
 
             Text(
