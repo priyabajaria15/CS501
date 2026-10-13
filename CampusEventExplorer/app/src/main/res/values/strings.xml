@@ -9,6 +9,7 @@
     <string name="event_details">Event details</string>
     <string name="navigate_up">Navigate up</string>
     <string name="share_event">Share event</string>
+    <string name="share_chooser_title">Share event via</string>
     <string name="label_when">Date / time</string>
     <string name="label_where">Location</string>
     <string name="label_about">About this event</string>

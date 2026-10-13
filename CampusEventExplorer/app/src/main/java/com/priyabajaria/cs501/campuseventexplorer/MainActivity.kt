@@ -8,7 +8,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
-import com.priyabajaria.cs501.campuseventexplorer.navigation.EventListRoute
+import com.priyabajaria.cs501.campuseventexplorer.navigation.AppNavHost
 import com.priyabajaria.cs501.campuseventexplorer.ui.theme.CampusEventTheme
 
 class MainActivity : ComponentActivity() {
@@ -21,8 +21,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    // EventListRoute owns the search state. Navigation comes later.
-                    EventListRoute(onEventSelected = {})
+                    AppNavHost()
                 }
             }
         }
