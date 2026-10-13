@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Campus Event Explorer</string>
+    <string name="list_title">Campus Events</string>
+    <string name="list_subtitle">%1$d of %2$d events</string>
+    <string name="search_events">Search events</string>
+    <string name="clear_search">Clear search</string>
+    <string name="no_results_title">No matching events</string>
+    <string name="no_results_body">Try a different title or category.</string>
+</resources>
